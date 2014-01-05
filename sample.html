@@ -1,0 +1,53 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+    <script>
+    	function userList($scope) {
+    		$scope.users = [
+    			{userName: "seanehss", firstName: "Sean", lastName: "Hess", telephone: "801-555-5555", email: "seanhess@gmail.com"},
+    			{userName: "isaachess", firstName: "Isaac", lastName: "Hess", telephone: "801-555-5555", email: "isaachess@gmail.com"},
+    		]
+
+    		$scope.addUser = function(newUser) {
+    			$scope.users.push(newUser);
+    			$scope.newUser = {};
+    		}
+    	}
+    </script>
+  </head>
+  <body ng-controller="userList">
+    <h1>Current Users: {{users.length}}</h1>
+    <div>
+    	<table border=1>
+    		<tr ng-repeat="user in users">
+    			<td>
+    				{{user.userName}}
+    			</td>
+    			<td>
+    				{{user.firstName}}
+    			</td>
+    			<td>
+    				{{user.lastName}}
+    			</td>
+    			<td>
+    				{{user.telephone}}
+    			</td>
+    			<td>
+    				{{user.email}}
+    			</td>
+    		</tr>
+    	</table>
+    </div>
+    <div>
+    	<form ng-submit="addUser(newUser)">
+    		<div><input type="text" ng-model="newUser.userName" placeholder="Username"></div>
+    		<div><input type="text" ng-model="newUser.firstName" placeholder="First Name"></div>
+    		<div><input type="text" ng-model="newUser.lastName" placeholder="Last Name"></div>
+    		<div><input type="text" ng-model="newUser.telephone" placeholder="Telephone"></div>
+    		<div><input type="text" ng-model="newUser.email" placeholder="Email"></div>
+    		<div><input type="submit" value="Add new user"></div>
+    	</form>
+    </div>
+</body>
+</html>

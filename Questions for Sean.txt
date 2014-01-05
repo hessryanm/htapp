@@ -1,0 +1,10 @@
+1/5/13
+1) Modules:
+	a. Should my entire app have one module, or a separate module for each major feature area?
+
+	b. Do I have just one router for the entire app? Or are those often split up as well?
+
+2) Controllers:
+	a. It looks like I should have a seprate controller for each page that has a unique URL (since I can specify in the router which template and controller to use). My question is: do I keep all controllers in one file, or do I put each module in its own controller file?
+
+	b. It semms like a controller is essentially the javascript for a specific page. Is that a good basic analogy?
