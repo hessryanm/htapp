@@ -1,4 +1,12 @@
 1/5/13
+Angular things to learn:
+-Filter
+-orderBy
+-Repeat
+-Bindings
+-Directives
+-Services
+
 1) Modules:
 	a. Should my entire app have one module, or a separate module for each major feature area?
 
