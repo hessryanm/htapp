@@ -7,15 +7,15 @@ htApp.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
       when('/users', {
-        templateUrl: 'partials/users.html',
+        templateUrl: 'templates/users.html',
         controller: 'usersCtrl'
       }).
       when('/assignments', {
-        templateUrl: 'partials/assignments.html',
+        templateUrl: 'templates/assignments.html',
         controller: 'assignmentsCtrl'
       }).
       when('/collect-reports', {
-        templateUrl: 'partials/collect-reports.html',
+        templateUrl: 'templates/collect-reports.html',
         controller: 'collectReportsCtrl'
       }).
       otherwise({

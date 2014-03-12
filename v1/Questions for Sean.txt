@@ -1,3 +1,11 @@
+1/7/13
+-Using the console seems impossible. Nothing is defined. How do I get this to work?
+
+1. Set the current companionship ID as a variable.
+2. Check if that variable equals the current companionship id
+3. If not, reset the variable to the current companionship id.
+4. Then filter by that companionship id?
+
 1/5/13
 Angular things to learn:
 -Filter
