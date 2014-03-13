@@ -1,4 +1,4 @@
-function AssignmentCtrl($scope) {
+app.controller("AssignmentCtrl", function ($scope, $http) {
 	
 	var assignments = [
 	{quorum:"Elders",htDistrict:"1",supervisor:"Hess, Isaac",compID:"360",ht1:"Taylor, Eric",ht1Phone:"801-623-1245",ht1Email:"ericmatthewtaylor@gmail.com",ht2:"Roberts, Micah",ht2Phone:"435-632-6559",ht2Email:"hacim-backwards@yahoo.com",household:"Household, Number 1",householdPhone:"801-380-8916",householdEmail:"1@yahoo.com",},
@@ -14,7 +14,8 @@ function AssignmentCtrl($scope) {
 
 	console.log($scope.companionships);
 
-}
+
+})
 
 function transformData(assignments) {
 	var companionships = [];
