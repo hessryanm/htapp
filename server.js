@@ -3,7 +3,7 @@ var http = require("http");
 var connect = require("connect");
 var app = express();
 
-app.use(connect.static(__dirname))
+app.use(connect.static(__dirname + '/public'))
 
 app.get("/json", function(request, response) {
 	response.send({

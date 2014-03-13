@@ -1,0 +1,39 @@
+<main-menu>
+<div>
+	<select ng-model="districtCombo.htDistrict">
+		<option value="">All Companionships</option>
+		<option ng-repeat="district in districts" value="{{district}}">District {{district}}</option>
+
+	</select>
+</div>
+<table>
+	<tr>
+		<th>Home Teacher</th>
+		<th>Phone</th>
+		<th>Email</th>
+		<th>Families</th>
+	</tr>
+	<tr ng-repeat="companionship in companionships | filter:districtCombo">
+		<td>
+			<div ng-repeat="hometeacher in companionship.ht">
+				{{hometeacher.name}}
+			</div>
+		</td>
+		<td>
+			<div ng-repeat="hometeacher in companionship.ht">
+				{{hometeacher.phone}}
+			</div>
+		</td>
+		<td>
+			<div ng-repeat="hometeacher in companionship.ht">
+				{{hometeacher.email}}
+			</div>
+		</td>
+		<td>
+			<div ng-repeat="household in companionship.households">
+				{{household.name}}
+			</div>
+		</td>
+	</tr>
+</table>
+</main-menu>
