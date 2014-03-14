@@ -1,0 +1,27 @@
+2014-03-14T08:26:27.219298000 0.314312s info: Creating directory /Users/owner/Documents/Programming Projects/HTApp/rethinkdb_data
+2014-03-14T08:26:27.222471000 0.317485s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/owner/Documents/Programming Projects/HTApp/rethinkdb_data' did not already exist.)
+2014-03-14T08:26:27.222552000 0.317565s info: Running rethinkdb 1.11.3 (CLANG 4.2 (clang-425.0.28))...
+2014-03-14T08:26:27.229929000 0.324943s info: Running on Darwin 13.0.0 x86_64
+2014-03-14T08:26:27.229988000 0.325002s info: Loading data from directory /Users/owner/Documents/Programming Projects/HTApp/rethinkdb_data
+2014-03-14T08:26:27.409644000 0.504658s info: Listening for intracluster connections on port 29015
+2014-03-14T08:26:27.411833000 0.506847s info: Listening for client driver connections on port 28015
+2014-03-14T08:26:27.411853000 0.506867s info: Listening for administrative HTTP connections on port 8080
+2014-03-14T08:26:27.411855000 0.506869s info: Listening on addresses: 127.0.0.1, ::1
+2014-03-14T08:26:27.411856000 0.506869s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-03-14T08:26:27.411856000 0.506870s info: by running rethinkdb with the `--bind all` command line option.
+2014-03-14T08:26:27.411857000 0.506871s info: Server ready
+2014-03-14T08:26:36.426602000 9.520042s info: Server got SIGINT from pid 26130, uid 501; shutting down...
+2014-03-14T08:26:36.426816000 9.520255s info: Shutting down client connections...
+2014-03-14T08:26:36.427242000 9.520682s info: All client connections closed.
+2014-03-14T08:26:36.427253000 9.520692s info: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2014-03-14T08:26:36.427255000 9.520695s info: Storage engine shut down.
+2014-03-14T08:26:39.848579000 0.003458s info: Running rethinkdb 1.11.3 (CLANG 4.2 (clang-425.0.28))...
+2014-03-14T08:26:39.852081000 0.006959s info: Running on Darwin 13.0.0 x86_64
+2014-03-14T08:26:39.852119000 0.006998s info: Loading data from directory /Users/owner/Documents/Programming Projects/HTApp/rethinkdb_data
+2014-03-14T08:26:39.861104000 0.015983s info: Listening for intracluster connections on port 29015
+2014-03-14T08:26:39.862414000 0.017292s info: Listening for client driver connections on port 28015
+2014-03-14T08:26:39.862428000 0.017306s info: Listening for administrative HTTP connections on port 8080
+2014-03-14T08:26:39.862429000 0.017307s info: Listening on addresses: 127.0.0.1, ::1
+2014-03-14T08:26:39.862430000 0.017308s info: To fully expose RethinkDB on the network, bind to all addresses
+2014-03-14T08:26:39.862430000 0.017308s info: by running rethinkdb with the `--bind all` command line option.
+2014-03-14T08:26:39.862431000 0.017309s info: Server ready

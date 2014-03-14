@@ -12,6 +12,10 @@ app.config(["$routeProvider", "$locationProvider", function($routeProvider, $loc
 			controller:'StuffCtrl',
 			templateUrl:'templates/stuff.html'
 		})
+		.when('/uploadassignments', {
+			controller:'UploadAssignmentsCtrl',
+			templateUrl:'templates/uploadassignments.html'
+		})
 		.otherwise({
 			redirectTo:'/'
 		});
